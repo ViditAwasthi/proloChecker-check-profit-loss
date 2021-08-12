@@ -8,7 +8,6 @@ body {
     font-family: 'Montserrat', sans-serif;
     margin: 0px;
     background-image: url("https://media.gettyimages.com/photos/graphic-concept-suitable-for-financial-investment-picture-id1201446420?s=2048x2048"); 
-
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -35,9 +34,24 @@ padding: 1rem;
     margin: 0.3rem auto 1rem auto;
     padding: 0.6rem;
     width: 40%;
+    border-radius: 0.3rem;
+    border: 1px solid black;
 }
 
 #check-button{
 padding: 0.4rem 1rem;
+border-radius: 0.3rem;
+border: 1px solid black;
 }
 
+.sad-theme{
+    background-image: url("https://media.giphy.com/media/2lD3RImaUwxA4/giphy.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+footer{
+    padding: 2rem;
+}
