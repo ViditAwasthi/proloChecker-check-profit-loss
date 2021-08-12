@@ -29,7 +29,7 @@ function calculateProfitLoss(){
     }else{
         let lossAmount = calculateLoss(sellingPrice, costPrice);
         resultDiv.innerText ="You made a Loss of ₹"+lossAmount[0]+" 😥 & Your %age Losses were: "+lossAmount[1]+"% 📉";
-        // document.getElementById("main-section").style.backgroundImage= "url(https://media.giphy.com/media/2lD3RImaUwxA4/giphy.gif)";
+        // document.getElementById("main-section").style.backgroundImage= "url()";
 
         document.getElementById("main-section").className="sad-theme";
         
