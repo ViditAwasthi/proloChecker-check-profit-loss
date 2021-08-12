@@ -1,27 +1,27 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
-*{
-    --primary-color: #4c57f5;
+* {
+    --primary-color: #2626bd;
 }
 
 body {
     font-family: 'Montserrat', sans-serif;
     margin: 0px;
-    background-image: url("https://media.gettyimages.com/photos/graphic-concept-suitable-for-financial-investment-picture-id1201446420?s=2048x2048"); 
+    background-image: url("https://media.gettyimages.com/photos/graphic-concept-suitable-for-financial-investment-picture-id1201446420?s=2048x2048");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-
 }
 
-nav{
-background-color: var(--primary-color);
-color: white;
-padding: 1rem 1rem 0.1rem 1rem;
+nav {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 1rem 1rem 0.1rem 1rem;
+    border-bottom-left-radius: 2rem;
+    border-top-right-radius: 2rem;
 }
 
-
-#container{
+#container {
     text-align: center;
     max-width: 600px;
     margin: 2rem auto;
@@ -29,10 +29,9 @@ padding: 1rem 1rem 0.1rem 1rem;
     background-color: rgba(245, 245, 245, 0.930);
     border-radius: 2.5rem;
     border: 2px solid var(--primary-color);
-
 }
 
-#container input{
+#container input {
     display: block;
     margin: 0.3rem auto 1rem auto;
     padding: 0.6rem;
@@ -42,40 +41,55 @@ padding: 1rem 1rem 0.1rem 1rem;
     color: var(--primary-color);
 }
 
-#check-button{
-padding: 0.4rem 1rem;
-border-radius: 0.3rem;
-border: 2px solid var(--primary-color);
-margin-top: 10px;
+#check-button {
+    padding: 0.4rem 1rem;
+    border-radius: 0.3rem;
+    border: 2px solid var(--primary-color);
+    margin-top: 10px;
 }
 
-.sad-theme{
+.sad-theme {
     background-image: url("https://media.giphy.com/media/2lD3RImaUwxA4/giphy.gif");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
-.profit-theme{
+
+.profit-theme {
     background-image: url("https://media.giphy.com/media/5fBH6zoAQg9dHK2ttsc/giphy.gif");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
 
-
-footer{
-    padding: 0.1rem;
-background-color: var(--primary-color);
-color: white;
-text-align: center;
-
-}
-
-#result-div{
+#result-div {
     border: 1px solid var(--primary-color);
     max-width: 500px;
     margin: 10px auto 0px auto;
     border-radius: 0.5rem;
     padding: 5px;
+    color: var(--primary-color);
+    font-weight: bold;
+}
 
+footer {
+    color: white;
+    padding: 1rem;
+    background-color: var(--primary-color);
+    border-bottom-right-radius: 2rem;
+    border-top-left-radius: 2rem;
+}
+
+.footer-div {
+    max-width: 500px;
+    margin: auto;
+    text-align: center;
+}
+
+.footer a {
+    font-size: 25px;
+    color: white;
+    text-decoration: none;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
 }

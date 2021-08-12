@@ -7,34 +7,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Check Profit or Loss</title>
     <link rel="stylesheet" href="./css/style.css">
+    <script src="https://use.fontawesome.com/e0ffb0dd0c.js"></script>
 </head>
 
 <body>
- <section id="main-section">
-    <nav> 
-        <h2>Prolo-Checker</h2>       
-    </nav>
+    <section id="main-section">
+        <nav>
+            <h2>Prolo-Checker</h2>
+        </nav>
+        <div id="container">
+            <h1>Check Profit or Loss your Stock is Making!</h1>
+            <label for="purchase-price">Stock Purchase Price: </label>
+            <input id="purchase-price" type="number">
+            <label for="stock-quantity">Quantity Purchased: </label>
+            <input id="stock-quantity" type="number">
+            <label for="current-price">Stock Current Price: </label>
+            <input id="current-price" type="number">
 
-
-    <div id="container">
-        <h1>Check Profit or Loss your Stock is Making!</h1>
-        <label for="purchase-price">Stock Purchase Price: </label>
-        <input id="purchase-price" type="number">
-        <label for="stock-quantity">Quantity Purchased: </label>
-        <input id="stock-quantity" type="number">
-        <label for="current-price">Stock Current Price: </label>
-        <input id="current-price" type="number">
-        
-        <button id="check-button">Check</button>
-        <div id="result-div">
-
+            <button id="check-button">Check</button>
+            <div id="result-div"></div>
         </div>
-    </div>
-    <footer>
-        <h3>Made by Vidit</h3>
-    </footer>
-
-</section>
+        <footer class="footer">
+            <div class="footer-div">
+                <a href="https://github.com/ViditAwasthi">
+                    <i class="fa fa-github"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/vidit-awasthi-768010195/">
+                    <i class="fa fa-linkedin"></i>
+                </a>
+                <a href="https://twitter.com/ViditAwasthi_">
+                    <i class="fa fa-twitter"></i>
+                </a>
+            </div>
+        </footer>
+    </section>
 </body>
 <script src="./app.js"></script>
 
