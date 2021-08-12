@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+*{
+    --primary-color:
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0px;
+    background-image: url("https://media.gettyimages.com/photos/graphic-concept-suitable-for-financial-investment-picture-id1201446420?s=2048x2048"); 
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+nav{
+background-color: aqua;
+padding: 1rem;
+}
+
+#container{
+    text-align: center;
+    max-width: 600px;
+    margin: 2rem auto;
+    padding: 1rem;
+    background-color: whitesmoke;
+    border-radius: 2.5rem;
+
+}
+
+#container input{
+    display: block;
+    margin: 0.3rem auto 1rem auto;
+    padding: 0.6rem;
+    width: 40%;
+}
+
+#check-button{
+padding: 0.4rem 1rem;
+}
+
