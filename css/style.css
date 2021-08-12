@@ -49,8 +49,14 @@ border: 1px solid black;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-
 }
+.profit-theme{
+    background-image: url("https://media.giphy.com/media/5fBH6zoAQg9dHK2ttsc/giphy.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
 
 footer{
     padding: 2rem;

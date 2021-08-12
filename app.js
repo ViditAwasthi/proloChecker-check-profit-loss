@@ -24,15 +24,11 @@ function calculateProfitLoss(){
     if(sellingPrice>costPrice){
         let profitAmount = calculateProfit(sellingPrice,costPrice);
         resultDiv.innerText ="You made a Profit of ₹"+profitAmount[0]+" 🥳 & Your %age gains were: "+profitAmount[1]+"% 📈";
-        document.body.style.backgroundImage= url("https://c.tenor.com/ILQPMy8OTbIAAAAC/stock-market-goes-up.gif");
-        
+        document.getElementById("main-section").className="profit-theme";
     }else{
         let lossAmount = calculateLoss(sellingPrice, costPrice);
         resultDiv.innerText ="You made a Loss of ₹"+lossAmount[0]+" 😥 & Your %age Losses were: "+lossAmount[1]+"% 📉";
-        // document.getElementById("main-section").style.backgroundImage= "url()";
-
         document.getElementById("main-section").className="sad-theme";
-        
     }
 
     
